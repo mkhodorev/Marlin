@@ -10,6 +10,12 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+## My Config:
+- Концевик `Y-` подключен в `X+` для работы прерываний. Pin-ы переназначены в `pins_RAMPS.h`
+- E0 и E1 поменяны местами в в `pins_RAMPS.h`
+- Установлен 3DTouch со смещением +25.00мм по Y, -1.60мм по Z
+- Размер стола учитываем X=190 Y=150
+
 ## Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
